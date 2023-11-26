@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costco Splitter - Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Costco Splitter - Results</h1>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+    <script>
+        // Retrieve the resultHTML from localStorage
+        const resultHTML = localStorage.getItem('resultHTML');
+
+        // Display the resultHTML in the result div
+        document.getElementById('result').innerHTML = resultHTML;
+
+        // Clear the resultHTML from localStorage (optional)
+        localStorage.removeItem('resultHTML');
+    </script>
+</body>
+</html>

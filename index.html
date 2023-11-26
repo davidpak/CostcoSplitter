@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costco Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Costco Splitter</h1>
+    <form id="costcoForm">
+        <label for="item">Enter costco item: </label>
+        <input type="text" id="item" placeholder="Enter an item" required>
+        <br>
+        <label for="cost">Enter the cost: $</label>
+        <input type="number" id="cost" step="0.01" placeholder="0" required>
+        <br>
+        <label for="splitting">Who is splitting this item? (write names separated by spaces. If shared item, type 'all'): </label>
+        <input type="text" id="splitting" placeholder="Enter a roommate" required>
+        <br>
+        <button type="button" onclick="addItem()">Add Item</button>
+        <button type="button" onclick="finish()">Finish</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
