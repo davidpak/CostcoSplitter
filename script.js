@@ -23,7 +23,7 @@ function finish() {
         "mason": 0,
         "caleb": 0,
         "matthew": 0,
-        "lucas": 0
+        "lucus": 0
     };
 
     let roommatesItems = {
@@ -32,7 +32,7 @@ function finish() {
         "mason": [],
         "caleb": [],
         "matthew": [],
-        "lucas": []
+        "lucus": []
     };
 
     for (const itemData of costcoItems) {
