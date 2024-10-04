@@ -18,18 +18,18 @@ function addItem() {
 function finish() {
     // Process costcoItems and calculate the breakdown
     let roommates = {
-        "david": 0,
+        "bill": 0,
         "peter": 0,
-        "mason": 0,
+        "kevin": 0,
         "caleb": 0,
         "matthew": 0,
         "lucus": 0
     };
 
     let roommatesItems = {
-        "david": [],
+        "bill": [],
         "peter": [],
-        "mason": [],
+        "kevin": [],
         "caleb": [],
         "matthew": [],
         "lucus": []
